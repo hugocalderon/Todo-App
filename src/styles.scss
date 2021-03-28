@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+//Primary
+
+$Color-Bright-Blue: hsl(220, 98%, 61%);
+$Color-Check-Background:linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+
+// Light Theme
+
+$Color-Very-Light-Gray: hsl(0, 0%, 98%);
+$Color-Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+$Color-Light-Grayish-Blue: hsl(233, 11%, 84%);
+$Color-Dark-Grayish-Blue: hsl(236, 9%, 61%);
+$Color-Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+
+//Dark Theme
+
+$Color-Very-Dark-Blue: hsl(235, 21%, 11%);
+$Color-Very-Dark-Desaturated-Blue: hsl(235, 24%, 19%);
+$Color-Light-Grayish-Blue: hsl(234, 39%, 85%);
+//$Color-Light-Grayish-Blue (hover): hsl(236, 33%, 92%);
+$Color-Dark-Grayish-Blue: hsl(234, 11%, 52%);
+$Color-Very-Dark-Grayish-Blue: hsl(233, 14%, 35%);
+$Color-Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
+
+
+.dark .header{
+  background-color: $Color-Bright-Blue;
+  background-image: url("./assets/bg-desktop-dark.jpg") ;
+}
+
+.dark .body{
+  background-color: $Color-Very-Dark-Blue;
+}
