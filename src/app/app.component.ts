@@ -12,7 +12,7 @@ export class AppComponent {
   itemsFiltered: Todo[];
   items: Todo[];
   tabOption = 1; // 1: All, 2: Active, 3: Completed
-  isDark: boolean = false;
+  isDark: boolean = true;
   constructor() {
     this.items = [
       new Todo('Complete online JavaScript course', true),
