@@ -8,7 +8,7 @@
 <div class="container-fluid " [ngClass]="{'darkTheme': isDark,'whiteTheme': !isDark}">
   <div class="row">
     <div class="col-12 header" style="height: 40vh;"></div>
-    <div class="col-12 body d-flex justify-content-center" style="height: 60vh;">
+    <div class="col-12 body d-flex justify-content-center" style="height: 100%;">
       <div class="row content">
         <div class="col-12 p-0">
           <div class="row mb-4" style="height: 66px">
@@ -43,7 +43,7 @@
               <div class="footer-left-content col-12 col-md-3 ">
                 <button class="btn">{{itemleft()}}</button>
               </div>
-              <div class="footer-center-content col-12 col-md-5 ">
+              <div class="footer-center-content col-12 col-md-5 p-0">
                 <button class="btn" [ngClass]="{'active': tabOption == 1 }" (click)="showData(1)">All</button>
                 <button class="btn" [ngClass]="{'active': tabOption == 2 }" (click)="showData(2)">Active</button>
                 <button class="btn" [ngClass]="{'active': tabOption == 3 }" (click)="showData(3)">Completed</button>
@@ -53,8 +53,22 @@
               </div>
             </footer>
           </div>
+          <div class="row mt-3">
+            <div class="col-12 text-center">
+              Drag and drop to reorder list
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12 text-center">
+              <div class="attribution">
+                Challenge by
+                <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                >Frontend Mentor</a
+                >. Coded by <a href="https://hugocalderon.github.io/" target="_blank">Hugo Calderon</a>.
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   </div>

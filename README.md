@@ -1,27 +1,63 @@
-# TodoApp
+# Frontend Mentor - Todo app solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+This is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Add new todos to the list
+- Mark todos as complete
+- Delete todos from the list
+- Filter by all/active/complete todos
+- Clear all completed todos
+- Toggle light and dark mode
+- **Bonus**: Drag and drop to reorder items on the list
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](./screenshot.png)
 
-## Running end-to-end tests
+### Links
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Solution URL: [Solution URL here](https://your-solution-url.com)
 
-## Further help
+## My process
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Bootstrap 5
+- [Angular](https://angular.io/) - Framework
+
+### Useful resources
+
+- [angular.io](https://angular.io/).
+- [getbootstrap.com](https://getbootstrap.com).
+- [netlify.com](netlify.com) - This platform supports me in seeing my project live.
+- [https://manishjanky.github.io/ngx-sortable/](https://manishjanky.github.io/ngx-sortable/) - Component for sorting list supporting drag and drop sort.
+
+## Author
+
+- Website - [Hugo Calderón](https://hugocalderon.github.io/)
+- Frontend Mentor - [@hugocalderon](https://www.frontendmentor.io/profile/hugocalderon)
+
