@@ -48,6 +48,7 @@ Users should be able to:
 - Mobile-first workflow
 - Bootstrap 5
 - [Angular](https://angular.io/) - Framework
+- [FontAwesome](https://fontawesome.com/)
 
 ### Useful resources
 
@@ -55,6 +56,7 @@ Users should be able to:
 - [getbootstrap.com](https://getbootstrap.com).
 - [netlify.com](netlify.com) - This platform supports me in seeing my project live.
 - [https://manishjanky.github.io/ngx-sortable/](https://manishjanky.github.io/ngx-sortable/) - Component for sorting list supporting drag and drop sort.
+- [https://fontawesome.com/](https://fontawesome.com/)
 
 ## Author
 
