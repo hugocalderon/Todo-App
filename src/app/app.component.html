@@ -5,14 +5,20 @@
 &lt;!&ndash;  <i class="far fa-sun"></i>&ndash;&gt;
 </nav>-->
 
-<div class="container-fluid dark">
+<div class="container-fluid " [ngClass]="{'darkTheme': isDark,'whiteTheme': !isDark}">
   <div class="row">
-    <div class="col-12 header" style="height: 30vh;">
-      
-    </div>
-    <div class="col-12 body d-flex justify-content-center" style="height: 70vh;">
+    <div class="col-12 header" style="height: 40vh;"></div>
+    <div class="col-12 body d-flex justify-content-center" style="height: 60vh;">
       <div class="row content">
         <div class="col-12 p-0">
+          <div class="row mb-4" style="height: 66px">
+            <div class="col-6 title  my-auto ">
+              <small >TODO</small>
+            </div>
+            <div class="col-6 text-end  my-auto ">
+              <button class="btn" (click)="switchDarkTheme()"><i class="switch-dark" [ngClass]="{'fa fa-sun': isDark,'fas fa-moon': !isDark}"></i></button>
+            </div>
+          </div>
           <div class="input-group mb-4">
             <div class="input-group-prepend">
               <div class="input-group-text h-100">
@@ -34,15 +40,15 @@
               </ng-template>
             </ngx-sortable>
             <footer class="row">
-              <div class="footer-left-content col-12 col-md-3 text-sm-center">
+              <div class="footer-left-content col-12 col-md-3 ">
                 <button class="btn">{{itemleft()}}</button>
               </div>
-              <div class="footer-center-content col-12 col-md-5  text-sm-center">
+              <div class="footer-center-content col-12 col-md-5 ">
                 <button class="btn" [ngClass]="{'active': tabOption == 1 }" (click)="showData(1)">All</button>
                 <button class="btn" [ngClass]="{'active': tabOption == 2 }" (click)="showData(2)">Active</button>
                 <button class="btn" [ngClass]="{'active': tabOption == 3 }" (click)="showData(3)">Completed</button>
               </div>
-              <div class="footer-right-content col-12 col-md-4  text-sm-center">
+              <div class="footer-right-content col-12 col-md-4">
                 <button class="btn" (click)="clearCompleted()">Clear Completed</button>
               </div>
             </footer>

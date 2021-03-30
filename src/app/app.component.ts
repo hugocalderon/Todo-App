@@ -12,9 +12,11 @@ export class AppComponent {
   itemsFiltered: Todo[];
   items: Todo[];
   tabOption = 1; // 1: All, 2: Active, 3: Completed
+  isDark: boolean = false;
   constructor() {
     this.items = [
       new Todo('Complete online JavaScript course', true),
+      new Todo('Complete Todo App on Frontend Mentor', true),
       new Todo('Job around the park 3x', false),
       new Todo('10 minutes meditation', false),
       new Todo('Read for 1 hour', false),
@@ -114,5 +116,9 @@ export class AppComponent {
   deleteItem(item: Todo) {
     const index = this.items.findIndex(e => e.name === item.name);
     this.items.splice(index, 1);
+  }
+
+  switchDarkTheme() {
+    this.isDark = !this.isDark;
   }
 }
