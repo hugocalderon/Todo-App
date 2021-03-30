@@ -113,9 +113,9 @@ $Color-Very-Dark-Grayish-Blue: hsl(237, 14%, 26%);
     height: 61px;
     //width: 200px;
     //background: linear-gradient(to left, #fc466b, #3f5efb) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: #25273c !important;
+    background: $Color-Dark-Grayish-Blue !important;
     opacity: 1 !important;
-    border: 1px dotted #e1dbfa !important;
+    border: 1px solid $Color-Very-Dark-Desaturated-Blue !important;
   }
 }
 /** DARK ENDS **/
